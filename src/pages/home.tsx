@@ -4,7 +4,9 @@ import './home.scss';
 export const Home = () => {
   return (
     <div>
-      你好
+      <div className="x">
+
+      </div>
     </div>
   );
 };
