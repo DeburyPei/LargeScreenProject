@@ -18,8 +18,10 @@
     grid-row-gap:px(28);
 
     >section{
-      text-align: center;}
+      text-align: center;
+    }
     .bordered {
+
       border: 1px solid #0764bc;
       border-radius: 4px;
       background: #0c1139;
@@ -46,6 +48,9 @@
     }
     > .section1 {
       grid-area: box1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
 
     }
     > .section2 {
