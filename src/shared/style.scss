@@ -21,5 +21,10 @@ body {
 }
 #root{
   margin: 0 auto;
-  background-color: cadetblue;
+  display: flex;
+  flex-direction: column;
+
+}
+.App{
+  flex: 1;
 }
